@@ -9,23 +9,15 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 ## Procedure
 
-Step1:
+Step 1: Connect the RoboMaster EP robot using ep_robot.initialize().
 
-<br/>
+Step 2: Initialize chassis, LED, and camera components.
 
-Step2:
+Step 3: Start video streaming with ep_camera.start_video_stream().
 
-<br/>
+Step 4: Execute movements and LED color changes using an action list in a loop.
 
-Step3:
-
-<br/>
-
-Step4:
-
-<br/>
-
-Step5:
+Step 5: Stop video streaming and close the robot connection.
 
 <br/>
 
@@ -95,7 +87,6 @@ if _name_ == '_main_':
 
 ![robo](./img/robomaster.png)
 
-Insert image here
 
 
 <br/>
@@ -107,8 +98,7 @@ Insert image here
 
 Upload your video in Youtube and paste your video-id here
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-
+https://youtube.com/shorts/HEAMmhIDIJk?si=Ap4ykN230qyxGXlc
 <br/>
 <br/>
 <br/>
